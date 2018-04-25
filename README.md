@@ -1,6 +1,5 @@
-# Welcome to Tete-a-tete
-##### Open source chat with end to and encryption.
-The project is under development. Stay tuned!
+# Tête-à-Tête
+###### Open source chat with end to and encryption.
 
-[Github](https://github.com/teteateteio)
-[Facebook](https://www.facebook.com/teteatete.io/)
+Check our project on [Github](https://github.com/teteateteio).
+Follow us on[Facebook](https://www.facebook.com/teteatete.io/)
