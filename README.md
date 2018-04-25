@@ -2,4 +2,4 @@
 ##### Open source chat with end to and encryption.
 The project is under development. Stay tuned!
 [Github](https://github.com/teteateteio)
-[Facebook](https://nodejs.org/)
+[Facebook](https://www.facebook.com/teteatete.io/)
