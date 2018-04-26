@@ -16,7 +16,6 @@
 			fill:#FFFFFF;
 		}
 
-
 		.locker {
 			animation: close-lock;
 			animation-fill-mode: forwards;
@@ -25,7 +24,6 @@
 			animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
 			transform: translateY(-7%);
 		}
-
 
 		@keyframes close-lock {
 			0% {
