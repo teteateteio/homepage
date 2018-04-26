@@ -5,7 +5,7 @@
 	<style type="text/css">
 		:root {
 			--speed:300ms;
-			--delay: 1000ms;
+			--delay: 600ms;
 		}
 
 		.st0{
@@ -23,13 +23,13 @@
 			animation-duration: var(--speed);
 			animation-delay: var(--delay);
 			animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
-			transform: translateY(-8%);
+			transform: translateY(-7%);
 		}
 
 
 		@keyframes close-lock {
 			0% {
-				transform: translateY(-8%);
+				transform: translateY(-7%);
 			}
 			100% {
 				transform: translateY(0);
@@ -40,7 +40,7 @@
 			animation: shake-lock;
 			animation-fill-mode: forwards;
 			animation-duration: var(--speed);
-    		animation-delay: calc(var(--delay) + var(--speed));
+    		animation-delay: calc(var(--delay) + var(--speed) / 1.2);
     		animation-timing-function: ease;
 			transform: translateY(0);
 		}
