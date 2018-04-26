@@ -28,10 +28,10 @@
 			0% {
 				transform: translateY(-9%);
 			}
-			6% {
+			10% {
 				transform: translateY(0);
 			}
-            64% {
+            60% {
 				transform: translateY(0);
 			}
             70% {
@@ -52,16 +52,13 @@
 		}
 
 		@keyframes lock-animation {
-			0% {
+			4% {
 				transform: translateY(0);
-			}
-			3% {
-				transform: translateY(0);
-			}
-            5% {
-				transform: translateY(2%);
 			}
             7% {
+				transform: translateY(2%);
+			}
+            10% {
 				transform: translateY(0);
 			}
 
