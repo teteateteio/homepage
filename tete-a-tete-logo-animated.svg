@@ -5,7 +5,7 @@
 	<style type="text/css">
 		:root {
 			--speed:300ms;
-			--delay: 600ms;
+			--delay: 1000ms;
 		}
 
 		.st0{
