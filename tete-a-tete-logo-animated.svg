@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 
+	 viewBox="0 0 680 680" style="enable-background:new 0 0 680 680;" xml:space="preserve">
+
+	<style type="text/css">
+		:root {
+			--speed:300ms;
+			--delay: 1000ms;
+		}
+
+		.st0{
+			fill:#E43D50;
+		}
+
+		.st1{
+			fill:#FFFFFF;
+		}
+
+
+		.locker {
+			animation: close-lock;
+			animation-fill-mode: forwards;
+			animation-duration: var(--speed);
+			animation-delay: var(--delay);
+			animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+			transform: translateY(-8%);
+		}
+
+
+		@keyframes close-lock {
+			0% {
+				transform: translateY(-8%);
+			}
+			100% {
+				transform: translateY(0);
+			}
+		}
+
+		.lock {
+			animation: shake-lock;
+			animation-fill-mode: forwards;
+			animation-duration: var(--speed);
+    		animation-delay: calc(var(--delay) + var(--speed));
+    		animation-timing-function: ease;
+			transform: translateY(0);
+		}
+
+		@keyframes shake-lock {
+			0% {
+				transform: translateY(0);
+			}
+			50% {
+				transform: translateY(2%);
+			}
+			100% {
+				transform: translateY(0);
+			}
+		}
+	</style>
+
+	<circle class="st0" cx="340" cy="340" r="335"/>
+
+	<polygon class="st0" points="171,614 25,655 64,499 "/>
+
+	<g class="lock">
+		<path class="st1" d="M237.7,307.4h-2.4c-15,0-27.3,12.2-27.3,27.1v149.3c0,15,12.2,27.1,27.3,27.1H445c15,0,27.3-12.2,27.3-27.1
+			  V334.5c0-15-12.2-27.1-27.3-27.1h-0.7L237.7,307.4z M356.3,415.8c-2.1,1.5-2.7,3-2.7,5.5c0.1,11,0.1,21.9,0.1,32.8l0,0
+			  c0.2,4.5-2.1,9-6.2,11c-9.6,4.9-19.3-2-19.3-11V454c0-11,0-21.9,0.1-32.9c0-2.2-0.5-3.7-2.5-5.2c-10-7.3-13.3-19.8-8.3-30.8
+			  c4.9-10.7,16.7-17,27.9-14.7c12.4,2.5,21.1,12.4,21.2,24.8C366.8,403.8,363.3,410.8,356.3,415.8z"/>
+
+		<path class="st1 locker" d="M282.2,412.4V272.2c0-32,26.1-58,58-58c32,0,58,26.1,58,58l-0.1,35.9l45.3,0l0-36
+			  c0-56.9-46.3-103.2-103.2-103.2C283.3,169.1,237,215.4,237,272.2v140.2H282.2z"/>
+	</g>
+</svg>
